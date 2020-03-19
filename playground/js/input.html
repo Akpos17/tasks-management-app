@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <label>What's your name?</label>
+  <input id="input" type="text" />
+
+  <hr/>
+  <div>
+    <h3>Your name is: <span id="nameContainer"></span></h3>
+  </div>
+</body>
+<script type="text/javascript">
+  const el = document.querySelector('#input')
+  const containerEl = document.querySelector('#nameContainer')
+
+  el.oninput = ev => {
+    const target = ev.target
+    containerEl.textContent = target.value
+  }
+</script>
+
+</html>
