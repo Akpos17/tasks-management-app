@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+          <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <link href="../theme/fonts/all.css" rel="stylesheet">
+    <title>shopping template</title>
+  </head>
+  <style>
+   
+      h1
+      {
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-style: inherit;
+      }
+      dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+div.c {
+  text-align: right;
+  color: aliceblue;
+} 
+div.d {
+  text-align: left;
+  color: aliceblue;
+} 
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+h5
+{
+    color: #44f744;;
+}
+h4
+{
+    color: black;
+}
+div.container {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  </style>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1><i class="fas fa-shopping-cart text-white "></i></h1>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+
+              <h3> <a class="nav-link" href="#" class="text-white bg-dark">StoreM4<span
+                        class="sr-only">(current)</span></a></h3>
+            </li>
+        </ul>
+    </div>
+
+    <img src="mobile.png" width="45" height="50" alt="...">
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <img src="logo1.jpg" width="60" height="50" alt="...">
+        <h1>
+            AFASHIONHOUSE
+        </h1>
+    </div>
+  <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <div class="dropdown">
+           <a class="btn text-info">MEN</button>
+        <div class="dropdown-content">
+          <a href="#">NEW ARRIVALS</a>
+          <a href="#">COATS</a>
+          <a href="#">SWEATERS</a>
+          <a href="#">DENIMS</a>
+          <a href="#">JACKETS</a>
+          <a href="#">CASUAL & DRESS SHIRTS</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a class="btn text-info">WOMAN</button>
+     <div class="dropdown-content">
+         <a href="#">NEW ARRIVALS</a>
+          <a href="#">DRESSES</a>
+          <a href="#">TEES & TANKS</a>
+          <a href="#">SWEATERS</a>
+          <a href="#">COATS</a>
+          <a href="#">CASUAL & DRESS SHIRTS</a>
+     </div>
+   </div>
+
+   <div class="dropdown">
+    <a class="btn text-info">SHOES</button>
+ <div class="dropdown-content">
+   <a href="#">WOMEN'S SHOES</a>
+   <a href="#">MEN'S SHOES</a>
+ </div>
+</div>
+
+<div class="dropdown">
+    <a class="btn text-info">COSMETICS</button>
+ <div class="dropdown-content">
+    <a href="#">SKIN CARE</a>
+    <a href="#">BODY CARE</a>
+    <a href="#">MAKE UP</a>
+    <a href="#">DENIMS</a>
+    <a href="#">NAIL CARE</a>
+    <a href="#">FRAGRANCES</a>
+ </div>
+</div>
+
+                                            
+    </nav>
+<div class="text-center">
+    <img src="model1.jpg" class="img-fluid" alt="...">
+</div>
+
+    
+
+    <div class="c">
+        <h4><p>Save over 25% on the purchase of new collection</p></h4>
+      
+         </div>
+        
+
+         <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-3" >
+                <img src="glasses.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Brown Glasses </p></h5>
+                      <h4> $71</h4>
+                         </div>
+                </div>
+                
+            </div>
+              
+            <div class="col-sm-3">
+                <img src="shoes.jpg" class="card-img-top" width="249" height="249" alt="">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Men's Shoes</p></h5>
+                      <h4> $48</h4>
+                         </div>
+            </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="backpack.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Blue Backpack </p></h5>
+                      <h4> $75 </h4>
+                         </div>
+            </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="snapback.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Red Snapback</p></h5>
+                      <h4> $29</h4>
+                         </div>
+            </div>
+            </div>
+          </div>    
+
+          <div class="c">
+            <h4><p> </p></h4>
+          
+             </div>
+             </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-3" >
+                <img src="black glasses.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Black Glasses </p></h5>
+                      <h4> $71</h4>
+                         </div>
+            </div>
+            </div>
+              
+            <div class="col-sm-3">
+                <img src="women shoes.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Women's Shoes</p></h5>
+                      <h4> $43</h4>
+                         </div>
+            </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="pink.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Pink Backpack </p></h5>
+                      <h4> $20</h4>
+                         </div>
+            </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="red cap.jpg" class="card-img-top" width="249" height="249" alt="...">
+                <div class="bottom-right">
+                    <div class="c">
+                        <h5><p>Red Cap </p></h5>
+                      <h4> $65</h4>
+                         </div>
+            </div>
+            </div>
+          </div>  
+
+
+          <div class="container">
+            <div class="row row-cols-4">
+              <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="truck.png" class="card-img-top" alt="..." width="10" height="100">
+                    <div class="card-body">
+                      <h5 class="card-title">Just Arrived</h5>
+                      <p class="card-text">With so many styles of guys's clothes in Online Shopping HTML5 Template, 
+                          shoes and accessories to pick from, you'll undoubtedly find your new wardrobe favourites in Make over's guys's sale. 
+                          Update your street, 
+                          work or formal wear with our most current enhancements.</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="love.png" class="card-img-top" alt="..." width="10" height="100">
+                    <div class="card-body">
+                      <h5 class="card-title">We Love</h5>
+                      <p class="card-text">Update your wardrobe with some of this period's must-haves of Online Shop HTML5 Template at a fraction of the price. 
+                          Our women's apparel sale is all you have to produce an unique look, 
+                          whether you're attire preparation for job or play. 
+                          Save on a large range of our much-loved styles, 
+                          consisting of bodycon mini gowns and also waterfall cardigans, 
+                          to fake leather coats and peep toe boots.
+
+                    </p>
+                    </div>
+                  </div>
+              </div>
+
+
+              <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="cart.jpg" class="card-img-top" alt="..." width="10" height="100">
+                    <div class="card-body">
+                      <h5 class="card-title">Best Sellers</h5>
+                      <p class="card-text">Keep on-trend and in budget with Online Store HTML5 Template's variety of sale coats and coats. 
+                          With falls jackets, dusters and more to choose from in a wide range of colours it's simple to stay fashionable and cosy without breaking the bank this season. 
+                          Accompany with sale knitwear.</p>
+                    </div>
+                  </div>
+              </div>
+
+              
+              <div class="col">
+                <div class="card" style="width: 16rem;">
+                    <img src="discount.png" class="card-img-top" alt="..." width="10" height="100">
+                    <div class="card-body">
+                      <h5 class="card-title">Discounts</h5>
+                      <p class="card-text">With stunning price cuts in our females's tops sale, 
+                          just how can you deficient your top priority? 
+                          Update your streetwear wardrobe with off the shoulder tops and also bardot designs that match uncomplicated with your favorite denim, 
+                          or opt for a crop top that you can wear day to night. From females's tee shirts to kimono tops and corset tops, 
+                          there's a standout design for any kind of event in our Web Shop HTML Template ladies's tops sale</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="text-center">
+                <img src="end.jpg" class="img-fluid" alt="...">
+                </div>
+
+              
+
+              
+
+             
+          
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+      
+  </body>
+</html>
